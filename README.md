@@ -1,4 +1,4 @@
-# checkpoint_7
+                                                                                     # checkpoint_7
 #          ¿Qué diferencia a Javascript de cualquier otro lenguaje de programación?
 
 
