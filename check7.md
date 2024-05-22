@@ -53,6 +53,7 @@ En JavaScript, los tipos de datos son fundamentales para la manipulación de val
 Los tipos de datos primitivos son los más básicos y no se pueden descomponer en otros tipos. En JavaScript, hay siete tipos de datos primitivos.
 
 - a. Number
+  
   Este tipo de dato incluye tanto números enteros como números de punto flotante. JavaScript utiliza un único tipo de datos numéricos para representar ambos.
 
 ```javascript
@@ -64,6 +65,7 @@ console.log(decimal); // Salida: 3.14
 ```
 
 - b. String
+  
   Los strings (cadenas de caracteres) representan texto. Pueden definirse usando comillas simples ('), comillas dobles ("), o backticks (`) para plantillas literales.
 
 ```javascript
@@ -77,6 +79,7 @@ console.log(template); // Salida: Hola, Mundo
 ```
 
 - c. Boolean
+  
   Este tipo de dato solo puede tener dos valores: true o false.
 
 ```javascript
@@ -88,6 +91,7 @@ console.log(falso); // Salida: false
 ```
 
 - d. Null
+  
   null es un valor especial que representa la ausencia de valor. Es intencionadamente asignado a una variable para indicar que no tiene valor.
 
 ```javascript
@@ -97,6 +101,7 @@ console.log(vacio); // Salida: null
 ```
 
 - e. Undefined
+  
   undefined indica que una variable ha sido declarada pero no ha sido asignada un valor.
 
 ```javascript
@@ -106,6 +111,7 @@ console.log(indefinido); // Salida: undefined
 ```
 
 - f. Symbol
+  
   Symbol es un tipo de dato único y no modificable que se utiliza para crear identificadores únicos.
 
 ```javascript
@@ -116,6 +122,7 @@ console.log(simbolo1 === simbolo2); // Salida: false
 ```
 
 - g. BigInt
+  
   BigInt se utiliza para representar números enteros que son demasiado grandes para ser representados por el tipo Number.
 
 ```javascript
@@ -129,6 +136,7 @@ console.log(numeroGrande); // Salida: 123456789012345678901234567890n
 Los objetos en JavaScript son colecciones de pares clave-valor y pueden contener otros tipos de datos, incluidos primitivos y otros objetos.
 
 - a. Object
+  
   Un objeto es una colección de propiedades, y una propiedad es una asociación entre un nombre (o clave) y un valor.
 
 ```javascript
@@ -143,6 +151,7 @@ console.log(persona["edad"]); // Salida: 30
 ```
 
 - b. Array
+  
   Un array es una colección de elementos ordenados que pueden ser accedidos por un índice.
 
 ```javascript
@@ -153,6 +162,7 @@ console.log(numeros.length); // Salida: 5
 ```
 
 - c. Function
+  
   Las funciones son objetos que pueden ser invocados. En JavaScript, las funciones son ciudadanos de primera clase, lo que significa que pueden ser asignadas a variables, pasadas como argumentos y retornadas por otras funciones.
 
 ```javascript
@@ -164,6 +174,7 @@ console.log(saludar("Ana")); // Salida: Hola, Ana
 ```
 
 - d. Date
+  
   El objeto Date se utiliza para trabajar con fechas y horas.
 
 ```javascript
@@ -173,6 +184,7 @@ console.log(ahora); // Salida: La fecha y hora actuales
 ```
 
 - e. RegExp
+  
   El objeto RegExp representa una expresión regular y se utiliza para hacer coincidir texto con un patrón.
 
 ```javascript
